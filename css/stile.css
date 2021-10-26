@@ -3,48 +3,72 @@ body{
     height: 100%;
     margin: 0;
 }
-
-.menu-principal {
-    background-color: #664949;
-    height: 135px;
-    width: 100%;
+.menu-principal{
+position: relative;
+width: 100%;
+height: 100px;
+background-color: #865439;
+margin-top: 0 auto;
+}
+.botao{
+    text-align: center;
     position: relative;
 }
-
-.dropdown-menu{
-
-}
-
-.carrossel {
-    box-shadow: 2px 2px 4px white;
-    overflow: hidden; 
-    height: 230px;
-    width:700px;
-}
-
-.col-200 {
+.carrossel{
+    overflow: hidden;
     width: 100%;
-    background-color: white;
+    height: 500px;
     float: left;
+}
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0);
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+.col-200{
+    width: 100%;
+    background-color:#865439;
+    height: 600px;
+    float: left;
+}
+.col-4{
+    width: 40%;
+    margin-top: 3em;
+    color: white;
+    float: left;
+    text-align: center;
+    padding-left: 250px;
+}
+
+.col-4 img {
+    border-radius: 5%;
+    width: 400px;
     height: 400px;
+}
+.col-4 a{
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+    width: 400px;
     background-position: center;
- }
- .col-4 {
-     width: 22%;
-     float: left;
-     height: 400px;
-     background-position: center;
-     padding-left: 40px;
-     margin-top: 3em;
- }
- .col-4 a {
-     float: left;
-     margin-top: 5px;
-     color: white;
-     text-align: center;
-     width: 200px;
-     height: 100px;
- }
- .col-4 img {
-     border-radius: 5%;
- }
+}
+.formulario{
+    width: 100%;
+    float: left;
+    padding-left: 360px;
+}
+.form{
+    width: 50%;
+    text-align: center;
+}
+.button{
+    width: 50%;
+    float: left;
+    padding-left: 360px;
+}
+.button button{
+    width: 495px;
+}
